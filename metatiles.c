@@ -4,10 +4,17 @@
  *	using neslib
  *	Doug Fraker 2018
  */	
- 
 
-#include "LIB/neslib.h"
-#include "LIB/nesdoug.h"
+#define LIBARGS nes.lib
+
+#define CFGFILE "nrom_32k_vert.cfg"
+ //#resource "neslib.s"
+ //#resource "nesdoug.s"
+ //#link "Room1.c"
+ //#link "crt0.s"
+
+#include "neslib.h"
+#include "nesdoug.h"
 #include "Sprites.h" // holds our metasprite data
 #include "metatiles.h"
 
